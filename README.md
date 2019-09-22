@@ -5,7 +5,8 @@ On its homepage (www.google.com, www.google.co.uk, www.google.be, or whichever T
 
 This userscript rewrites every link that doesn't use the .com TLD or the TLD of the current page, and replaces every non-matching TLD with the current TLD. In the screenshots, all the tagged links are modified to use the page TLD.
 
-**It is completely useless if you're in a location where .com is the default google tld**: all regional links have the .com domain and are not differentiable from the normal .com links - the script can't undo like with other regional TLDs.
+**The standard version (try the beta instead) of the script is useless if you're in a location where .com is the default google tld**: all regional links have the .com domain and are not differentiable from the normal .com links - the script can't undo like with other regional TLDs.
+The beta version tries to partially fix this. If you have used your local TLD outside the .com area, once in the .com area the script remembers which links are regional.
 
 In the screenshots below, links with TLDs other than .com and (if different) the current location tld, are tagged with a label displaying the different TLD.
 
